@@ -3,7 +3,10 @@
 function multiplyByTen(num) {
   //return num after multiplying it by ten
   //code here
-    //blibdealdsfkj
+  var num1 = 100;
+  var num2 = 10;
+  var multiply = num1 * num2;
+  console.log(multiply);
 }
 
 function subtractFive(num) {
