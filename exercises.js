@@ -9,6 +9,10 @@ function multiplyByTen(num) {
 function subtractFive(num) {
   //return num after subtracting five
   //code here
+    var num1 = 5;
+    var num2 = 66;
+    var subtract = num2 - num1;
+    console.log(subtract);
 }
 
 function areSameLength(str1, str2) {
