@@ -28,6 +28,7 @@ function areEqual(x, y) {
   //return true if x and y are the same
   //otherwise return false
   //code here
+    //HI
 }
 
 function lessThanNinety(num) {
