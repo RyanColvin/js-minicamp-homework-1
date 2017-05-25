@@ -101,12 +101,20 @@ function isEven(num) {
   //return true if num is even
   //otherwise return false
   //code here
+    if (num % 2 == 0) {
+        return true;
+    }
+    return false;
 }
 
 function isOdd(num) {
   //return true if num is false
   //otherwise return false
   //code here
+    if (num % 2 == 0) {
+        return false;
+    }
+    return true;
 }
 
 function square(num) {
@@ -126,7 +134,7 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   //raise num to whatever power is passed in as exponent
   //code here
-    var raisePower = Math.pow(num, 5);
+    var raisePower = Math.pow(num, exponent);
     return raisePower;
 }
 
@@ -173,21 +181,29 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   //return the area of the rectangle by using length and width
   //code here
+    var rectArea = length * width;
+    return rectArea;
 }
 
 function getTriangleArea(base, height) {
   //return the area of the triangle by using base and height
   //code here
+    var triaArea = height * (base / 2);
+    return triaArea;
 }
 
 function getCircleArea(radius) {
   //return the rounded area of the circle given the radius
   //code here
+    var circArea = Math.round(Math.PI * Math.pow(radius, 2));
+    return circArea;
 }
 
 function getRectangularPrismVolume(length, width, height) {
   //return the volume of the 3D rectangular prism given the length, width, and height
   //code here
+    var rectVol = length * width * height;
+    return rectVol;
 }
 
 //Do not modify code below this line.
