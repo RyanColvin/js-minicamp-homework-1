@@ -1,21 +1,19 @@
 //Do not change any of the function names
 
 function multiplyByTen(num) {
+    var product = num * 10;
+    return product;
   //return num after multiplying it by ten
   //code here
-  var num1 = 100;
-  var num2 = 10;
-  var multiply = num1 * num2;
-  console.log(multiply);
+  
 }
 
 function subtractFive(num) {
   //return num after subtracting five
   //code here
-    var num1 = 5;
-    var num2 = 66;
-    var subtract = num2 - num1;
-    console.log(subtract);
+    var division = num - 5;
+    return division;
+    
 }
 
 function areSameLength(str1, str2) {
